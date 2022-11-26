@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 30vh;
+    width: 100vw;
+}
+
+.navbar {
+    background-color: grey;
+    height: fit-content;
+    padding: 32px;
+}
+
+.burtgleh {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main {
+    height: 170vh;
+    width: 100%;
+}
+
+.footer {
+    height: 30vh;
+    width: 100%;
+    background-color: green;
+    display: flex;
+}
+
+.text {
+    height: 100%;
+    width: 50%;
+}
+
+.addresses {
+    height: 100%;
+    width: 50%;
+    padding-inline: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fb {
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
